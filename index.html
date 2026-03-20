@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    @font-face {
+        font-family: 'Walt';
+        src: url('fontes/Lyno-Walt.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }   
+
+    Stan
+    {
+        font-family: 'Stan';
+        src: url('fontes/Lyno-Stan.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    b
+    { 
+        font-family: 'Ulys', sans-serif;
+        font-weight: 400;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center; /* horizontal */
+        align-items: center;     /* vertical */
+        height: 20px;           /* altura fixa obrigatória */
+
+    }
+    b2
+    {
+        font-family: 'Stan', sans-serif;
+        font-weight: 400;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        display: flex;
+        justify-content: center; /* horizontal */
+        align-items: center;     /* vertical */
+        height: 200px;           /* altura fixa obrigatória */
+    }
+    body
+    {
+        
+        background-color: rgb(18, 20, 31);
+        background-image: url('imgs/produto3.png');
+        position: fixed;
+        .logo {
+        position: fixed;
+        bottom: -50px;
+        right: -100px;
+        width: 400px;
+        filter: invert(1);
+        }
+    }
+
+    #menu
+    {
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -11px;
+
+
+        height: 70px;
+        list-style: none;
+        background-color: rgb(18, 20, 31);
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: 'Ulys', sans-serif;
+    }
+    #menu a
+    {
+        text-decoration: none;
+        color: white;
+        padding: 25px;
+    }
+    #menu a:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 35px;
+        font-family: Stan;
+        color: white;
+    }
+
+    .caixa-lista {
+        margin-top: 100px;
+        background-color: #1f1e25;
+        color: white;
+
+        padding: 20px;
+
+        border-radius: 10px;
+        width: fit-content; 
+
+        list-style: none; 
+
+        
+    }
+    .caixa-lista li
+    {
+        font-size: 20px;
+        font-family: Stan;
+    }
+
+</style>
+
+<body>
+    
+    <img src="imgs/logo.png" class="logo">
+
+    <ul id="menu">
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="me.html">sobre mim</a></li>
+        <li><a href="projetos.html">projetos</a></li>
+    </ul>
+    <h1>Essa eh uma pagina academica para a disciplina de desenvolvimento web</h1>
+    
+    <ul class="caixa-lista">
+        <li>O que é desenvolvimento web?</li>
+        <li><br>O desenvolvimento web envolve a criacao e manutencao de sites, aplicativos e sistemas acessíveis pela internet, abrangendo desde a concepção e design até a implementacao e gestão de solucoes digitais</li>
+    </ul>
+</body>
+</html>
